@@ -1,0 +1,18 @@
+    @import "~materialize-css/dist/css/materialize.min.css";
+    input.color-input {
+        border-bottom: 1px solid #fff!important;
+        box-shadow: 0 1px 0 0 #fff!important;
+    }
+    
+    input.color-input+label {
+        color: #ffffff!important;
+    }
+    
+    input.color-input:focus+label {
+        color: #1e88e5!important;
+    }
+    
+    input.color-input:focus {
+        border-bottom: 1px solid #1e88e5!important;
+        box-shadow: 0 1px 0 0 #1e88e5!important;
+    }
